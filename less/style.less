@@ -16,13 +16,16 @@ body {
   margin: 0;
 
 }
+
 a {
   color: #fff;
   text-decoration: none;
 }
+
 a:hover {
   color: #bda46b;
 }
+
 p {
   margin: 0;
 }
@@ -85,7 +88,6 @@ h6 {
   box-sizing: border-box;
 }
 
-
 //home start
 
 .home {
@@ -95,7 +97,6 @@ h6 {
   position: relative;
   min-width: 320px;
   height: 100vh;
-
 
   &__content {
     padding: 30px 0;
@@ -120,7 +121,7 @@ h6 {
     margin: 0 auto;
     position: relative;
   }
-  &__info{
+  &__info {
     position: absolute;
     bottom: -30px;
     left: 30%;
@@ -171,9 +172,7 @@ h6 {
   width: 99%;
 }
 
-
 //home end
-
 
 //header start
 
@@ -309,7 +308,6 @@ h6 {
     }
   }
 
-
   &__inner {
     position: relative;
 
@@ -336,10 +334,10 @@ h6 {
     }
 
   }
-  &__image{
+  &__image {
     margin-right: 25px;
   }
-  & ul{
+  & ul {
     list-style-position: inside;
   }
 }
@@ -509,7 +507,6 @@ h6 {
 
 //contact start
 
-
 .contact {
   position: relative;
   padding: 50px 0;
@@ -671,9 +668,7 @@ h6 {
   color: #ffffff;
 }
 
-
 //media
-
 
 @media screen and(max-width: 1700px) {
   .contact:before {
@@ -735,6 +730,7 @@ h6 {
   .home__row {
     width: 60%;
   }
+
   .footer__menu li a {
     font-size: 18px;
   }
@@ -758,7 +754,6 @@ h6 {
     margin: 0 auto;
   }
 
-
   .footer {
     padding: 75px 0;
   }
@@ -773,6 +768,14 @@ h6 {
 
   .media__text a {
     width: 50%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .home {
+    background: url(../img/home2.jpg) no-repeat left bottom;
+    background-size: cover;
+    background-attachment: fixed;
   }
 }
 
@@ -933,15 +936,10 @@ h6 {
   .footer {
     padding: 25px 0;
   }
-  //
-  //.home {
-  //  background: url("../img/home-bg-mob.png") no-repeat center;
-  //  background-size: cover;
-  //}
 
   .home__text {
-    left: 6%;
-    width: 85%;
+    left: 22%;
+    width: 68%;
     text-align: center;
   }
 
@@ -967,21 +965,14 @@ h6 {
     background: none;
   }
 }
+@media screen and (max-width: 600px){
 
-@media screen and (max-width: 500px) {
   .home {
     background: url("../img/home-mob.jpg") no-repeat left;
     background-size: cover;
-    //&:after{
-    //  content: "";
-    //  background: url("../img/buks.png") no-repeat;
-    //  background-size: 10%;
-    //  position: absolute;
-    //  bottom: 0;
-    //  width: 100%;
-    //  height: 100%;
-    //}
   }
+}
+@media screen and (max-width: 500px) {
 
   .page__content.info__inner:after {
     right: 0;
@@ -998,7 +989,6 @@ h6 {
   .home__row .header__title {
     font-size: 25px;
   }
-
 
   .home__logo {
     margin-bottom: 20px;
